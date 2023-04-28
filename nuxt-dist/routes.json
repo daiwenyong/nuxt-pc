@@ -1,0 +1,189 @@
+[
+  {
+    "name": "alipay",
+    "path": "/alipay",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/alipay.vue",
+    "chunkName": "pages/alipay"
+  },
+  {
+    "name": "AppChat",
+    "path": "/AppChat",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/AppChat.vue",
+    "chunkName": "pages/AppChat"
+  },
+  {
+    "name": "evaluation",
+    "path": "/evaluation",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/evaluation.vue",
+    "chunkName": "pages/evaluation"
+  },
+  {
+    "name": "goods_cate",
+    "path": "/goods_cate",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/goods_cate.vue",
+    "chunkName": "pages/goods_cate"
+  },
+  {
+    "name": "goods_list",
+    "path": "/goods_list",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/goods_list.vue",
+    "chunkName": "pages/goods_list"
+  },
+  {
+    "name": "goods_presell",
+    "path": "/goods_presell",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/goods_presell.vue",
+    "chunkName": "pages/goods_presell"
+  },
+  {
+    "name": "goods_presell_detail",
+    "path": "/goods_presell_detail",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/goods_presell_detail.vue",
+    "chunkName": "pages/goods_presell_detail"
+  },
+  {
+    "name": "goods_search",
+    "path": "/goods_search",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/goods_search.vue",
+    "chunkName": "pages/goods_search"
+  },
+  {
+    "name": "goods_seckill",
+    "path": "/goods_seckill",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/goods_seckill.vue",
+    "chunkName": "pages/goods_seckill"
+  },
+  {
+    "name": "goods_seckill_detail",
+    "path": "/goods_seckill_detail",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/goods_seckill_detail.vue",
+    "chunkName": "pages/goods_seckill_detail"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "logistics",
+    "path": "/logistics",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/logistics.vue",
+    "chunkName": "pages/logistics"
+  },
+  {
+    "name": "mobile_login",
+    "path": "/mobile_login",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/mobile_login/index.vue",
+    "chunkName": "pages/mobile_login/index"
+  },
+  {
+    "name": "order_confirm",
+    "path": "/order_confirm",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/order_confirm.vue",
+    "chunkName": "pages/order_confirm"
+  },
+  {
+    "name": "order_detail",
+    "path": "/order_detail",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/order_detail.vue",
+    "chunkName": "pages/order_detail"
+  },
+  {
+    "name": "payment",
+    "path": "/payment",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/payment.vue",
+    "chunkName": "pages/payment"
+  },
+  {
+    "name": "refund",
+    "path": "/refund",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/refund.vue",
+    "chunkName": "pages/refund"
+  },
+  {
+    "name": "refund_goods",
+    "path": "/refund_goods",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/refund_goods.vue",
+    "chunkName": "pages/refund_goods"
+  },
+  {
+    "name": "shoppingCart",
+    "path": "/shoppingCart",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/shoppingCart.vue",
+    "chunkName": "pages/shoppingCart"
+  },
+  {
+    "path": "/user",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/user.vue",
+    "chunkName": "pages/user",
+    "children": [
+      {
+        "name": "user",
+        "path": "",
+        "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/user/index.vue",
+        "chunkName": "pages/user/index"
+      },
+      {
+        "name": "user-address_list",
+        "path": "address_list",
+        "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/user/address_list.vue",
+        "chunkName": "pages/user/address_list"
+      },
+      {
+        "name": "user-balance",
+        "path": "balance",
+        "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/user/balance.vue",
+        "chunkName": "pages/user/balance"
+      },
+      {
+        "name": "user-collect",
+        "path": "collect",
+        "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/user/collect.vue",
+        "chunkName": "pages/user/collect"
+      },
+      {
+        "name": "user-messageCenter",
+        "path": "messageCenter",
+        "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/user/messageCenter.vue",
+        "chunkName": "pages/user/messageCenter"
+      },
+      {
+        "name": "user-myCoupon",
+        "path": "myCoupon",
+        "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/user/myCoupon.vue",
+        "chunkName": "pages/user/myCoupon"
+      },
+      {
+        "name": "user-orderList",
+        "path": "orderList",
+        "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/user/orderList.vue",
+        "chunkName": "pages/user/orderList"
+      },
+      {
+        "name": "user-userCoupon",
+        "path": "userCoupon",
+        "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/user/userCoupon.vue",
+        "chunkName": "pages/user/userCoupon"
+      }
+    ]
+  },
+  {
+    "name": "wxPay",
+    "path": "/wxPay",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/wxPay.vue",
+    "chunkName": "pages/wxPay"
+  },
+  {
+    "name": "goods_detail-id",
+    "path": "/goods_detail/:id",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/goods_detail/_id/index.vue",
+    "chunkName": "pages/goods_detail/_id/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/daiwenyong/Desktop/code/shop-pc/view/pc/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
