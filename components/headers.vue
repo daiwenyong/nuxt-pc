@@ -17,6 +17,7 @@
               v-if="$auth.user.is_open_member && $auth.user.is_money_level" />
           </nuxt-link>
           <nuxt-link to="/login" class="item" v-else>登录/注册</nuxt-link>
+          <nuxt-link to="/business_register" class="item">商户入驻</nuxt-link>
           <nuxt-link :to="{ path: '/user/messageCenter?page_type=2' }" class="item service_color">
             <div class="iconfont icon-duoshanghupc-daohuotongzhi"></div>
             <view v-if="userInfo.service_num" class="num"> </view>

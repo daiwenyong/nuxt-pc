@@ -3,37 +3,38 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _1698fba7 = () => interopDefault(import('../pages/alipay.vue' /* webpackChunkName: "pages/alipay" */))
-const _097113ec = () => interopDefault(import('../pages/AppChat.vue' /* webpackChunkName: "pages/AppChat" */))
-const _09d66519 = () => interopDefault(import('../pages/evaluation.vue' /* webpackChunkName: "pages/evaluation" */))
-const _76561275 = () => interopDefault(import('../pages/goods_cate.vue' /* webpackChunkName: "pages/goods_cate" */))
-const _78ddef78 = () => interopDefault(import('../pages/goods_list.vue' /* webpackChunkName: "pages/goods_list" */))
-const _062cbc82 = () => interopDefault(import('../pages/goods_presell.vue' /* webpackChunkName: "pages/goods_presell" */))
-const _62289701 = () => interopDefault(import('../pages/goods_presell_detail.vue' /* webpackChunkName: "pages/goods_presell_detail" */))
-const _224a5cce = () => interopDefault(import('../pages/goods_search.vue' /* webpackChunkName: "pages/goods_search" */))
-const _8038b90e = () => interopDefault(import('../pages/goods_seckill.vue' /* webpackChunkName: "pages/goods_seckill" */))
-const _e693dff2 = () => interopDefault(import('../pages/goods_seckill_detail.vue' /* webpackChunkName: "pages/goods_seckill_detail" */))
-const _c3f4b5c8 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
-const _acdc3574 = () => interopDefault(import('../pages/logistics.vue' /* webpackChunkName: "pages/logistics" */))
-const _a5fb4428 = () => interopDefault(import('../pages/mobile_login/index.vue' /* webpackChunkName: "pages/mobile_login/index" */))
-const _c182a2fc = () => interopDefault(import('../pages/order_confirm.vue' /* webpackChunkName: "pages/order_confirm" */))
-const _5b4977ff = () => interopDefault(import('../pages/order_detail.vue' /* webpackChunkName: "pages/order_detail" */))
-const _7014530e = () => interopDefault(import('../pages/payment.vue' /* webpackChunkName: "pages/payment" */))
-const _277d29d5 = () => interopDefault(import('../pages/refund.vue' /* webpackChunkName: "pages/refund" */))
-const _1d9cfeec = () => interopDefault(import('../pages/refund_goods.vue' /* webpackChunkName: "pages/refund_goods" */))
-const _14651176 = () => interopDefault(import('../pages/shoppingCart.vue' /* webpackChunkName: "pages/shoppingCart" */))
-const _9337fc30 = () => interopDefault(import('../pages/user.vue' /* webpackChunkName: "pages/user" */))
-const _46117a6b = () => interopDefault(import('../pages/user/index.vue' /* webpackChunkName: "pages/user/index" */))
-const _f44cfe00 = () => interopDefault(import('../pages/user/address_list.vue' /* webpackChunkName: "pages/user/address_list" */))
-const _4ebaa196 = () => interopDefault(import('../pages/user/balance.vue' /* webpackChunkName: "pages/user/balance" */))
-const _64f3ca83 = () => interopDefault(import('../pages/user/collect.vue' /* webpackChunkName: "pages/user/collect" */))
-const _2a1fd2d5 = () => interopDefault(import('../pages/user/messageCenter.vue' /* webpackChunkName: "pages/user/messageCenter" */))
-const _1d0fe6e9 = () => interopDefault(import('../pages/user/myCoupon.vue' /* webpackChunkName: "pages/user/myCoupon" */))
-const _49191125 = () => interopDefault(import('../pages/user/orderList.vue' /* webpackChunkName: "pages/user/orderList" */))
-const _51a54e88 = () => interopDefault(import('../pages/user/userCoupon.vue' /* webpackChunkName: "pages/user/userCoupon" */))
-const _53b42e8c = () => interopDefault(import('../pages/wxPay.vue' /* webpackChunkName: "pages/wxPay" */))
-const _57bd9bb6 = () => interopDefault(import('../pages/goods_detail/_id/index.vue' /* webpackChunkName: "pages/goods_detail/_id/index" */))
-const _5743fbf6 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _392c7df6 = () => interopDefault(import('../pages/alipay.vue' /* webpackChunkName: "pages/alipay" */))
+const _528e0b64 = () => interopDefault(import('../pages/AppChat.vue' /* webpackChunkName: "pages/AppChat" */))
+const _5226f3cc = () => interopDefault(import('../pages/business_register/index.vue' /* webpackChunkName: "pages/business_register/index" */))
+const _682d6912 = () => interopDefault(import('../pages/evaluation.vue' /* webpackChunkName: "pages/evaluation" */))
+const _3868f8d3 = () => interopDefault(import('../pages/goods_cate.vue' /* webpackChunkName: "pages/goods_cate" */))
+const _f4b822bc = () => interopDefault(import('../pages/goods_list.vue' /* webpackChunkName: "pages/goods_list" */))
+const _db6092be = () => interopDefault(import('../pages/goods_presell.vue' /* webpackChunkName: "pages/goods_presell" */))
+const _5a4d9fdf = () => interopDefault(import('../pages/goods_presell_detail.vue' /* webpackChunkName: "pages/goods_presell_detail" */))
+const _a985b8a8 = () => interopDefault(import('../pages/goods_search.vue' /* webpackChunkName: "pages/goods_search" */))
+const _5549b85b = () => interopDefault(import('../pages/goods_seckill.vue' /* webpackChunkName: "pages/goods_seckill" */))
+const _f649ce36 = () => interopDefault(import('../pages/goods_seckill_detail.vue' /* webpackChunkName: "pages/goods_seckill_detail" */))
+const _01108804 = () => interopDefault(import('../pages/login.vue' /* webpackChunkName: "pages/login" */))
+const _4479bb28 = () => interopDefault(import('../pages/logistics.vue' /* webpackChunkName: "pages/logistics" */))
+const _29f0064a = () => interopDefault(import('../pages/mobile_login/index.vue' /* webpackChunkName: "pages/mobile_login/index" */))
+const _34a4c364 = () => interopDefault(import('../pages/order_confirm.vue' /* webpackChunkName: "pages/order_confirm" */))
+const _37878246 = () => interopDefault(import('../pages/order_detail.vue' /* webpackChunkName: "pages/order_detail" */))
+const _d584864a = () => interopDefault(import('../pages/payment.vue' /* webpackChunkName: "pages/payment" */))
+const _1764219a = () => interopDefault(import('../pages/refund.vue' /* webpackChunkName: "pages/refund" */))
+const _b2e0746c = () => interopDefault(import('../pages/refund_goods.vue' /* webpackChunkName: "pages/refund_goods" */))
+const _7ec03e23 = () => interopDefault(import('../pages/shoppingCart.vue' /* webpackChunkName: "pages/shoppingCart" */))
+const _be7af274 = () => interopDefault(import('../pages/user.vue' /* webpackChunkName: "pages/user" */))
+const _082460c9 = () => interopDefault(import('../pages/user/index.vue' /* webpackChunkName: "pages/user/index" */))
+const _1e8654e2 = () => interopDefault(import('../pages/user/address_list.vue' /* webpackChunkName: "pages/user/address_list" */))
+const _61957613 = () => interopDefault(import('../pages/user/balance.vue' /* webpackChunkName: "pages/user/balance" */))
+const _2432dd3e = () => interopDefault(import('../pages/user/collect.vue' /* webpackChunkName: "pages/user/collect" */))
+const _b1e5099a = () => interopDefault(import('../pages/user/messageCenter.vue' /* webpackChunkName: "pages/user/messageCenter" */))
+const _9b14086a = () => interopDefault(import('../pages/user/myCoupon.vue' /* webpackChunkName: "pages/user/myCoupon" */))
+const _60759883 = () => interopDefault(import('../pages/user/orderList.vue' /* webpackChunkName: "pages/user/orderList" */))
+const _25d9b2ea = () => interopDefault(import('../pages/user/userCoupon.vue' /* webpackChunkName: "pages/user/userCoupon" */))
+const _3797ff9c = () => interopDefault(import('../pages/wxPay.vue' /* webpackChunkName: "pages/wxPay" */))
+const _57277b83 = () => interopDefault(import('../pages/goods_detail/_id/index.vue' /* webpackChunkName: "pages/goods_detail/_id/index" */))
+const _35d018e7 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -53,127 +54,131 @@ export const routerOptions = {
 
   routes: [{
     path: "/alipay",
-    component: _1698fba7,
+    component: _392c7df6,
     name: "alipay"
   }, {
     path: "/AppChat",
-    component: _097113ec,
+    component: _528e0b64,
     name: "AppChat"
   }, {
+    path: "/business_register",
+    component: _5226f3cc,
+    name: "business_register"
+  }, {
     path: "/evaluation",
-    component: _09d66519,
+    component: _682d6912,
     name: "evaluation"
   }, {
     path: "/goods_cate",
-    component: _76561275,
+    component: _3868f8d3,
     name: "goods_cate"
   }, {
     path: "/goods_list",
-    component: _78ddef78,
+    component: _f4b822bc,
     name: "goods_list"
   }, {
     path: "/goods_presell",
-    component: _062cbc82,
+    component: _db6092be,
     name: "goods_presell"
   }, {
     path: "/goods_presell_detail",
-    component: _62289701,
+    component: _5a4d9fdf,
     name: "goods_presell_detail"
   }, {
     path: "/goods_search",
-    component: _224a5cce,
+    component: _a985b8a8,
     name: "goods_search"
   }, {
     path: "/goods_seckill",
-    component: _8038b90e,
+    component: _5549b85b,
     name: "goods_seckill"
   }, {
     path: "/goods_seckill_detail",
-    component: _e693dff2,
+    component: _f649ce36,
     name: "goods_seckill_detail"
   }, {
     path: "/login",
-    component: _c3f4b5c8,
+    component: _01108804,
     name: "login"
   }, {
     path: "/logistics",
-    component: _acdc3574,
+    component: _4479bb28,
     name: "logistics"
   }, {
     path: "/mobile_login",
-    component: _a5fb4428,
+    component: _29f0064a,
     name: "mobile_login"
   }, {
     path: "/order_confirm",
-    component: _c182a2fc,
+    component: _34a4c364,
     name: "order_confirm"
   }, {
     path: "/order_detail",
-    component: _5b4977ff,
+    component: _37878246,
     name: "order_detail"
   }, {
     path: "/payment",
-    component: _7014530e,
+    component: _d584864a,
     name: "payment"
   }, {
     path: "/refund",
-    component: _277d29d5,
+    component: _1764219a,
     name: "refund"
   }, {
     path: "/refund_goods",
-    component: _1d9cfeec,
+    component: _b2e0746c,
     name: "refund_goods"
   }, {
     path: "/shoppingCart",
-    component: _14651176,
+    component: _7ec03e23,
     name: "shoppingCart"
   }, {
     path: "/user",
-    component: _9337fc30,
+    component: _be7af274,
     children: [{
       path: "",
-      component: _46117a6b,
+      component: _082460c9,
       name: "user"
     }, {
       path: "address_list",
-      component: _f44cfe00,
+      component: _1e8654e2,
       name: "user-address_list"
     }, {
       path: "balance",
-      component: _4ebaa196,
+      component: _61957613,
       name: "user-balance"
     }, {
       path: "collect",
-      component: _64f3ca83,
+      component: _2432dd3e,
       name: "user-collect"
     }, {
       path: "messageCenter",
-      component: _2a1fd2d5,
+      component: _b1e5099a,
       name: "user-messageCenter"
     }, {
       path: "myCoupon",
-      component: _1d0fe6e9,
+      component: _9b14086a,
       name: "user-myCoupon"
     }, {
       path: "orderList",
-      component: _49191125,
+      component: _60759883,
       name: "user-orderList"
     }, {
       path: "userCoupon",
-      component: _51a54e88,
+      component: _25d9b2ea,
       name: "user-userCoupon"
     }]
   }, {
     path: "/wxPay",
-    component: _53b42e8c,
+    component: _3797ff9c,
     name: "wxPay"
   }, {
     path: "/goods_detail/:id",
-    component: _57bd9bb6,
+    component: _57277b83,
     name: "goods_detail-id"
   }, {
     path: "/",
-    component: _5743fbf6,
+    component: _35d018e7,
     name: "index"
   }],
 
