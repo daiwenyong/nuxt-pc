@@ -1,4 +1,4 @@
-let url = 'https://www.19lai.com/api'
+let url = 'https://w.19lai.com/api'
 module.exports = {
   // 测试环境 接口请求地址 (http)或(https)://www.crmeb.com(换成你的域名)/api
   test: {
