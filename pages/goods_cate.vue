@@ -40,7 +40,25 @@
     </div>
     <div class="wrapper wrapper_1200">
       <div class="acea-row">
-        <div class="name">分类：</div>
+        <div class="name">二级分类：</div>
+        <div class="list acea-row row-middle">
+          <div
+            class="item"
+            :class="erCurrent === index ? 'font-color' : ''"
+            v-for="(item, index) in categoryCurrent"
+            :key="index"
+            @click="erCategory(item.id, index)"
+          >
+            {{ item.cate_name }}
+            <!-- <div v-show="index===erCurrent" style="position: absolute;padding-top:10px">
+              <div v-for="three in item.twochildren" :key="three.id"> {{ three.cate_name }}</div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="acea-row">
+        <div class="name">三级分类：</div>
         <div class="list acea-row row-middle">
           <div
             class="item"
@@ -52,7 +70,8 @@
             {{ item.cate_name }}
           </div>
         </div>
-      </div>
+      </div> -->
+
       <div class="sort acea-row">
         <div class="name">排序：</div>
         <div class="acea-row row-middle">
@@ -156,6 +175,7 @@ export default {
     return {
       categoryList: [],
       categoryCurrent: [],
+      thrCategory: [],
       current: 0,
       moreCurrent: 0,
       seen: false,
@@ -494,7 +514,8 @@ export default {
     padding: 25px 17px;
     cursor: pointer;
     .list {
-      width: 1100px;
+      flex:1;
+      // width: 1100px;
       border-bottom: 1px dotted #efefef;
       padding-bottom: 10px;
       .item {
