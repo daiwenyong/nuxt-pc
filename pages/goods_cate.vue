@@ -50,27 +50,23 @@
             @click="erCategory(item.id, index)"
           >
             {{ item.cate_name }}
-            <!-- <div v-show="index===erCurrent" style="position: absolute;padding-top:10px">
-              <div v-for="three in item.twochildren" :key="three.id"> {{ three.cate_name }}</div>
-            </div> -->
           </div>
         </div>
       </div>
-
-      <!-- <div class="acea-row">
+      <div class="acea-row" style="padding-top: 15px;">
         <div class="name">三级分类：</div>
-        <div class="list acea-row row-middle">
+        <div class="list acea-row row-middle" style="height: 40px;">
           <div
             class="item"
-            :class="erCurrent === index ? 'font-color' : ''"
-            v-for="(item, index) in categoryCurrent"
+            :class="threeCurrent === index ? 'font-color' : ''"
+            v-for="(item, index) in threeCategory"
             :key="index"
-            @click="erCategory(item.id, index)"
+            @click="handleThreeCategory(item.id, index)"
           >
             {{ item.cate_name }}
           </div>
         </div>
-      </div> -->
+      </div>
 
       <div class="sort acea-row">
         <div class="name">排序：</div>
@@ -175,12 +171,12 @@ export default {
     return {
       categoryList: [],
       categoryCurrent: [],
-      thrCategory: [],
       current: 0,
       moreCurrent: 0,
       seen: false,
       titleName: "",
       erCurrent: 0,
+      threeCurrent: null,
       iSdefaults: 0,
       productslist: [],
       pullRefreshss: true, // 代表可以进行下拉加载，false代表不能
@@ -201,12 +197,13 @@ export default {
       app.$axios.get("/category"),
     ]);
     let category = categoryMsg.data;
-    category.forEach((item) => {
-      item.children.unshift({
-        id: 0,
-        cate_name: "全部",
-      });
-    });
+    // 添加全部
+    // category.forEach((item) => {
+    //   item.children.unshift({
+    //     id: 0,
+    //     cate_name: "全部",
+    //   });
+    // });
     console.log(query);
     let cidIndex = query.cidIndex ? query.cidIndex : 0,
       cid = query.cid
@@ -256,6 +253,12 @@ export default {
   },
   beforeDestroy() {
     window.onscroll = null;
+  },
+  computed: {
+    threeCategory() {
+      const {erCurrent,categoryCurrent} = this
+      return categoryCurrent[erCurrent].twochildren
+    }
   },
   methods: {
     goDetail(item) {
@@ -367,6 +370,19 @@ export default {
     },
     erCategory(id, index) {
       this.erCurrent = index;
+      this.threeCurrent = null;
+
+      this.productslist = [];
+      this.pullRefreshss = true;
+      this.page = 1;
+      this.sid = id;
+      this.priceOrder = "";
+      this.news = 0;
+      this.getProductslist();
+    },
+    handleThreeCategory(id,idx) {
+      this.threeCurrent = idx;
+
       this.productslist = [];
       this.pullRefreshss = true;
       this.page = 1;
